@@ -27,8 +27,8 @@ int main()
     cout << endl << "Vetor ordenado" << endl;
     for(i=0; i<n; i++)
         cout << vetor[i] << " ";
-
     delete [] vetor;
+
     return 0;
 }
 
